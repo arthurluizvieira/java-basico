@@ -1,3 +1,5 @@
+// escreva um programa que verifica se um número é par ou ímpar!
+
 import java.util.Scanner;
 
 public class ex03 {

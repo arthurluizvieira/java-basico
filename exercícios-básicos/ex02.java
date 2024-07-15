@@ -1,3 +1,6 @@
+// escreva um programa que solicite ao usuário dois números
+// e imprima o resultado da soma!
+
 
 import java.util.Scanner;
 
