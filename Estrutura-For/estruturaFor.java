@@ -9,7 +9,7 @@ public class estruturaFor {
 		int numeroFinal = entrada.nextInt();
 		
 		// for (iniciacao; condicao; incremento)
-		for (int i = 1; i <= numeroFinal; i++) {
+		for (int i = 1; i <= numeroFinal; i += 1) { // ou i++
 			System.out.println(i);
 		}
 		
