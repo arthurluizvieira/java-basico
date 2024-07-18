@@ -5,7 +5,7 @@
 public class Principal2 {
     
     public static void main(String[] args) {
-        ex01();
+        ex02();
 
    
     }
@@ -40,13 +40,13 @@ public class Principal2 {
     }
 
     public static void ex03(){
-        Proprietario dono1 = new Proprietario();
-        dono1.nome = "João da Silva";
+        Proprietario dono2 = new Proprietario();
+        dono2.nome = "João da Silva";
 
         Carro meuCarro = new Carro();
         meuCarro.modelo = "Palio";
 
-        meuCarro.dono = dono1; // >> aponta para dono1 como proprietario do carro
+        meuCarro.dono = dono2; // >> aponta para dono1 como proprietario do carro
     
     
     }
